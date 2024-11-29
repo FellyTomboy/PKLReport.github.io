@@ -1,0 +1,365 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>Laporan PKL di CV. Bunga Mekar Bersinar</title>
+		<style>
+      body {
+        background-color: #EDE6E2;
+        margin: 0;
+      }
+
+      .topnav {
+        background-color: #1E1A19;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+        font-family:'Gill Sans', sans-serif;
+      }
+
+      .topnav .navbar {
+        float: left;
+        color: #EDE6E2;
+        padding: 15px 16px;
+        text-decoration: none;
+      }
+
+      .topnav a:hover {
+        background-color: #EDE6E2;
+        color: #1E1A19;
+      }
+
+      .topnav a.active {
+        background-color: #5DA375;
+        float: left;
+        color: #EDE6E2;
+        padding: 15px 16px;
+        font-size: auto;
+        text-decoration: none;
+      }
+
+      .topnav .active:hover {
+        color: #1E1A19;
+      }
+
+      .topnav .icon {
+        display: none;
+      }
+
+      .container .content {
+        margin-top: -222px;
+        position: relative;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: #EDE6E2;
+        width: 100%;
+        padding: 18px 0px 3px 0px;
+        letter-spacing: 2px;
+        line-height: 3em;
+      }
+      .container .content p {
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .container .content h1 {
+        padding-left: 40px;
+      }
+
+      span {
+        margin: -5px;
+      }
+
+      .satu {
+        color: #5DA375;
+      }
+
+      .dua {
+        color: #D0261C;
+      }
+
+      .tiga {
+        color: #679CFF;
+      }
+      .empat {
+        color: #EDE6E2
+      }
+      main {
+        background-color: #1E1A19;
+        background-attachment: fixed;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='289' height='289' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%235DA375' stroke-width='1.8'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%239FCD36'%3E%3Ccircle cx='769' cy='229' r='11'/%3E%3Ccircle cx='539' cy='269' r='11'/%3E%3Ccircle cx='603' cy='493' r='11'/%3E%3Ccircle cx='731' cy='737' r='11'/%3E%3Ccircle cx='520' cy='660' r='11'/%3E%3Ccircle cx='309' cy='538' r='11'/%3E%3Ccircle cx='295' cy='764' r='11'/%3E%3Ccircle cx='40' cy='599' r='11'/%3E%3Ccircle cx='102' cy='382' r='11'/%3E%3Ccircle cx='127' cy='80' r='11'/%3E%3Ccircle cx='370' cy='105' r='11'/%3E%3Ccircle cx='578' cy='42' r='11'/%3E%3Ccircle cx='237' cy='261' r='11'/%3E%3Ccircle cx='390' cy='382' r='11'/%3E%3C/g%3E%3C/svg%3E");
+      }
+
+      * {box-sizing:border-box}
+
+      .inti {
+        color:#EDE6E2;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.856);
+        padding: 0.5em;
+        margin-top: 1em;
+        background-color: rgba(0, 0, 0, 0.686);
+        letter-spacing: 0.7px;
+        line-height: 32px;
+      }
+      .inti h2 {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+      }
+      .inti h3,.inti ol, .pelajari {
+        font-family: 'Gill Sans', sans-serif;
+        text-align: left;
+      }
+      .keterangan {
+        text-align: center;
+        margin-left: -3.5em;
+      }
+      /* Gaya untuk layar lebar (Desktop) */
+      @media screen and (min-width: 601px) {
+        .container .content {
+          margin-top: -222px;
+        }
+        
+        .container .content h1 {
+          font-size: 58px;
+        }
+        
+        .content p {
+          font-size: 28px;
+          padding-left: 40px;
+        }
+        
+        main {
+          padding: 75px;
+        }
+        .inti h2 {
+          font-size: xxx-large;
+        }
+        .inti p, .inti ol {
+          font-size: 20px;
+        }
+        .mySlides {
+          margin: 4em;
+          width: 45%;
+        }
+        .card img {
+          align-items: center;
+        }
+        .pelajari img {
+          width: 50%;
+        }
+        .gambar {
+          display:inline-flex;
+        }
+        .gambar img {
+          width: 45%;
+        }
+        p.keterangan {
+          font-size: 15px;
+        }
+      } 
+      /* Gaya untuk layar kecil (Mobile) */
+      @media screen and (max-width: 600px) {
+        .topnav a:not(:first-child) {
+          display: none;
+        }
+        
+        .topnav a.icon {
+          float: right;
+          display: block;
+          color: #EDE6E2;
+          margin: 16px;
+        }
+        
+        .topnav.responsive {
+          position: fixed;
+        }
+        
+        .topnav.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        
+        .topnav.responsive .icon:hover {
+          background-color: #5DA375;
+          color: #1E1A19;
+        }
+        
+        .topnav.responsive a {
+          float: none;
+          display: block;
+          text-align: left;
+          font-size: 18px;
+        }
+        
+        .container .content {
+          margin-top: -89px;
+          font-size: 8px;
+          padding: 1px;
+          letter-spacing: 2px;
+        }
+        
+        .container img {
+          margin-top: 3em;
+        }
+        
+        .content h1 {
+          font-size: 28px;
+          padding-left: 16px;
+        }
+        
+        .content p {
+          font-size: 14px;
+          margin: 2px 2px 2px 37px;
+        }
+        
+        main {
+          padding: 35px;
+        }
+        .pelajari h2 {
+          font-size: xx-large;
+        } 
+        .pelajari p,.pelajari ol {
+          font-size: 16px;
+        }
+        .mySlides {
+          margin: 2em;
+        }
+        .pelajari img {
+          width: 100%;
+        }
+        .gambar img{
+          width: 90%;
+        }
+        p.keterangan {
+          font-size: 12px;
+          line-height: 25px;
+        }
+      }
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="topnav" id="myTopnav">
+				<a class="navbar" href="home.html">Beranda</a>
+				<a class="navbar" href="profile.html">Profil Iduka</a>
+				<a class="navbar" href="pendahuluan.html">Pendahuluan</a>
+				<a class="active" href="inti.html">Kompetensi</a>
+        <a class="navbar" href="penutup.html">Penutup</a>
+        <a class="navbar" href="lampiran.html">Lampiran</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+			 	</a>
+			</div>
+			<div class="container">
+				<img src="assets\student-849822_1280.jpg" alt="Notebook" style="max-width:100%;max-height: 100%;width:2560px;">
+				<div class="content">
+					<h1>
+						<span class="satu">K</span>
+						<span class="dua">O</span>
+						<span class="tiga">M</span>
+            <span class="satu">P</span>
+						<span class="dua">E</span>
+						<span class="tiga">T</span>
+            <span class="satu">E</span>
+						<span class="dua">N</span>
+						<span class="tiga">S</span>
+            <span class="satu">I</span>
+					</h1>
+					<p>Felicita Arcadia A.R</p>
+				</div>
+			</div>
+			
+		</header>
+		<main>
+      <div class="inti">
+        <div class="pelajari">
+          <h2>Apa Yang Saya Pelajari</h2>
+            <h3>Operator Gudang</h3>
+              <ol>
+                <li>Input Orderan di Aplikasi Marketplace.</li>
+                <p>Untuk input orderan menggunakan spreadsheet sebagai databasenya. 
+                  Dalam melakukan pekerjaan ini diperlukan ketelitian, terutama karena ada banyak marketplace, 
+                  seperti Shopee, Tiktok, Tokopedia, Lazada, dan lain-lain yang masing-masing memerlukan 
+                  penanganan yang berbeda. Contohnya:
+                  <ul>
+                    <li>Cara membuka invoice berbeda. Untuk Shopee bisa dibuka lewat email, 
+                      sedangkan untuk marketplace lain harus dicek langsung di websitenya. </li>
+                    <li>Letak waktu order, nama pembeli, dan rincian harga bisa berbeda</li>
+                    <li> Untuk Biaya Admin marketplace, di Shopee sudah dihitungkan jadi tinggal copy paste.
+                      Akan tetapi untuk marketplace lain harus dimasukkan rumus secara manual, yaitu:</br>
+                      ([Total Pesanan] - [Diskon] - [Voucher]) * [Persentase biaya admin]. </br>
+                      Persentase Biaya Admin Tiap Marketplace:
+                      <ul>
+                        <li>Tiktok: 12%</li>
+                        <li>Tokopedia: 12% </li>
+                        <li>Lazada: 13.2%</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </br>
+                <img src="assets\spreadsheet.jpg" style="width: 90%; ">
+                <container class="gambar">
+                  <img src="assets\shopee.jpg" alt="Contoh invoice Shopee">
+                  <img src="assets\tiktok.jpg" alt="contoh invoice Tiktok">
+                </container>
+                <p class="keterangan">Keterangan: Gambar 1: Spreadsheet input penjualan;</br> 
+                  Gambar 2: Invoice Shopee; Gambar 3: Invoice Tiktok</p>
+                <li>Memastikan kesesuaian antara stok di data dengan stok asli.</li>
+                <p>Meskipun sudah ada data barang masuk, barang keluar, dan sisa stok, 
+                  masih diperlukan penghitungan manual untuk pengecekkan ganda. 
+                  Namun, searang tidak perlu karena gudang sudah pindah ke Kota Salatiga. </p>
+                <li> Mengemas paket dengan rapi dan aman</li>
+                <p>Untuk pengemasan produk skincare, diperlukan kehati-hatian supaya produk bisa sampai tujuan dengan selamat.
+                  Masing-masing item harus dilapisi dengan bubble warp dua lapis terlebih dahulu, kemudian dimasukkan ke 
+                  dalam kardus dan direkatkan dengan selotip putih juga selotip berlabel 'fragile'. 
+                  Label ini penting karena merupakan penanda untuk kurir kalau barang di dalamnya mudah pecah,
+                  sehingga mereka akan lebih hati-hati ketika memproses paket.</p>
+                <img src="assets\fragile.PNG" style="max-inline-size: fit-content;">
+                <p>
+                  Untuk ukuran  kardus juga ada beberapa macam, yaitu:
+                </p>
+                <ul>
+                  <li>Box Sedang (20x10x8)</li>
+                  <img src="assets\BS.PNG" style="max-inline-size: fit-content;">
+                  <li>Box Bundling (25x15x10)</li>
+                  <img src="assets\BB.PNG" style="max-inline-size: fit-content;">
+                  <li>Box Sisa (Tidak perlu dicatat dalam spreadsheet)</li>
+                  <img src="assets\sisa.PNG" style="max-inline-size: fit-content;">
+                  <li>Jika Item lebih banyak, bisa dengan cara menggabungkan dua Box Bundling untuk 
+                    membentuk box yang lebih besar. Sedangkan untuk moisturizer tunggal tidak perlu dikardus.</li>
+                </ul>
+              </ol>
+              <p> Sebuah Cerita: </br>
+                Suatu hari ketika saya input penjualan seperti biasa, saya terheran karena harga subtotal 
+                produk di invoice menjadi Rp10.500, sedangkan harga awalnya Rp105.000. 
+                Dari sana saya curiga apa ada kesalahan dari pihak marketing yang menangani marketplace, 
+                akan tetapi karena khawatir tertinggal, akhirnya saya input seperti biasa. Hari itu banyak 
+                sekali yang order karena murahnya harga produk itu. Di sore hari, akhirnya pihak marketing menyadari 
+                kesalahan tersebut, dan hari itu juga, ada ratusan pelanggan yang membatalkan pesanan. 
+                </p>
+            <p>Dalam istilah perusahaan ada yang namanya HPP, yaitu Harga Pokok Penjualan. HPP adalah total biaya yang 
+              dikeluarkan oleh perusahaan untuk memproduksi barang atau jasa yang dijual. Kemudian ada Harga Jual, yaitu 
+              patokan harga yang diputuskan oleh perusahaan. Harga barang yang tertera di marketplace tidak disarankan terlalu 
+              tinggi dari Harga Jual, juga tidak boleh lebih murah dari HPP supaya perusahaan tidak merugi. Contoh jika 
+              HPP Rp60.000, dan harga produk di marketplace Rp10.000, maka sekali barang terjual perusahaan sudah merugi Rp50.000. 
+              Jadi bisa dibayangkan berapa banyak rugi perusahaan dari insiden di atas.</p>
+            <p>Pertanyaannya, apa yang harus dilakukan jika hal seperti itu terjaid lagi? Dari peristiwa itu saya belajar 
+              pentingnya komunikasi dalam perusahaan. Karena yang mengurus marketplace adalah pihak eksternal, maka saya ragu untuk 
+              mengutarakan keraguan. Kalau saja saat itu saya berani, mungkin kerugian bisa dicegah dari awal.</p>
+        </div>
+      </div>
+		</main>
+		<script>
+			function myFunction() {
+  				var x = document.getElementById("myTopnav");
+  				if (x.className === "topnav") {
+    				x.className += " responsive";
+  				} else {
+    				x.className = "topnav";
+  				}
+			}
+		</script>
+	</body>
+</html>

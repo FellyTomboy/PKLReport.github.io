@@ -1,0 +1,277 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>Laporan PKL di CV. Bunga Mekar Bersinar</title>
+		<style>
+/* Gaya Umum */
+body {
+  background-color: #EDE6E2;
+  margin: 0;
+}
+
+.topnav {
+  background-color: #1E1A19;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  font-family:'Gill Sans', sans-serif;
+}
+
+.topnav .navbar {
+  float: left;
+  color: #EDE6E2;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #EDE6E2;
+  color: #1E1A19;
+}
+
+.topnav a.active {
+  background-color: #5DA375;
+  float: left;
+  color: #EDE6E2;
+  padding: 15px 16px;
+  font-size: auto;
+  text-decoration: none;
+}
+
+.topnav .active:hover {
+  color: #1E1A19;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.container .content {
+  margin-top: -222px;
+  position: relative;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #EDE6E2;
+  width: 100%;
+  padding: 18px 0px 3px 0px;
+  letter-spacing: 2px;
+  line-height: 3em;
+}
+.container .content p {
+  font-family:'Times New Roman', Times, serif
+}
+.container .content h1 {
+  padding-left: 40px;
+  font-family:'Times New Roman', Times, serif
+}
+
+span {
+  margin: -5px;
+}
+
+.satu {
+  color: #5DA375;
+}
+
+.dua {
+  color: #D0261C;
+}
+
+.tiga {
+  color: #679CFF;
+}
+
+main {
+  background-color: #1E1A19;
+  background-attachment: fixed;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='289' height='289' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%235DA375' stroke-width='1.8'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%239FCD36'%3E%3Ccircle cx='769' cy='229' r='11'/%3E%3Ccircle cx='539' cy='269' r='11'/%3E%3Ccircle cx='603' cy='493' r='11'/%3E%3Ccircle cx='731' cy='737' r='11'/%3E%3Ccircle cx='520' cy='660' r='11'/%3E%3Ccircle cx='309' cy='538' r='11'/%3E%3Ccircle cx='295' cy='764' r='11'/%3E%3Ccircle cx='40' cy='599' r='11'/%3E%3Ccircle cx='102' cy='382' r='11'/%3E%3Ccircle cx='127' cy='80' r='11'/%3E%3Ccircle cx='370' cy='105' r='11'/%3E%3Ccircle cx='578' cy='42' r='11'/%3E%3Ccircle cx='237' cy='261' r='11'/%3E%3Ccircle cx='390' cy='382' r='11'/%3E%3C/g%3E%3C/svg%3E");
+}
+.biodata {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.856);
+  padding: 0.5em;
+  background-color: rgba(0, 0, 0, 0.686);
+}
+.perkenalan p,.visi,.misi{
+  font-family: 'Gill Sans', sans-serif;
+  color: #EDE6E2;
+  text-align: center;
+  letter-spacing: 0.7px;
+  line-height: 32px;
+}
+
+/* Gaya untuk layar lebar (Desktop) */
+@media screen and (min-width: 601px) {
+  .container .content {
+    margin-top: -222px;
+  }
+  
+  .container .content h1 {
+    font-size: 58px;
+  }
+  
+  .content p {
+    font-size: 28px;
+    padding-left: 40px;
+  }
+  
+  main {
+    padding: 75px;
+  }
+  
+  .biodata {
+    padding: 3em;
+    align-items: center;
+    font-size: 20px;
+  }
+  .visimisi {
+    display: inline-flex;
+    padding: 1em;
+    width: 100%;
+  }
+    
+  .visi {
+    width: 50%;
+  }
+  .misi {
+    width: 50%;
+    text-align: left;
+    line-height:50px;
+  }
+}
+
+/* Gaya untuk layar kecil (Mobile) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  
+  .topnav a.icon {
+    float: right;
+    display: block;
+    color: #EDE6E2;
+    margin: 16px;
+  }
+  
+  .topnav.responsive {
+    position: fixed;
+  }
+  
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav.responsive .icon:hover {
+    background-color: #5DA375;
+    color: #1E1A19;
+  }
+  
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+  }
+  
+  .container .content {
+    margin-top: -89px;
+    font-size: 8px;
+    padding: 1px;
+    letter-spacing: 2px;
+  }
+  
+  .container img {
+    margin-top: 3em;
+  }
+  
+  .content h1 {
+    font-size: 28px;
+    padding-left: 16px;
+  }
+  
+  .content p {
+    font-size: 14px;
+    margin:2px 2px 2px 41px;
+  }
+  
+  main {
+    padding: 35px;
+  }
+  .perkenalan {
+    font-size: 16px;
+  }
+}
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="topnav" id="myTopnav">
+				<a class="active" href="home.html">Beranda</a>
+				<a class="navbar" href="profile.html">Profil Iduka</a>
+				<a class="navbar" href="pendahuluan.html">Pendahuluan</a>
+				<a class="navbar" href="inti.html">Kompetensi</a>
+        <a class="navbar" href="penutup.html">Penutup</a>
+        <a class="navbar" href="lampiran.html">Lampiran</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+			 	</a>
+			</div>
+			<div class="container">
+				<img src="assets/1318409.png" alt="Notebook" style="max-width:100%;max-height: 100%;width:2560px;">
+				<div class="content">
+					<h1>
+						LAPORAN
+						<span class="satu">P</span>
+						<span class="dua">K</span>
+						<span class="tiga">L</span>
+					</h1>
+					<p>Felicita Arcadia A.R</p>
+				</div>
+			</div>
+			
+		</header>
+		<main>
+      <div class="biodata">
+        <div class="visimisi">
+          <div class="visi">
+            <img src="assets\feli.png" style="width: fit-content;max-inline-size: -webkit-fill-available;margin: 15px;">
+          </div>
+          <div class="misi">
+            Nama: Felicita Arcadia A.R </br>
+            Kelas/No. Absen: XII RPL A/09 </br>
+            Sekolah: SMKN 8 Malang </br>
+            Tempat, Tanggal Lahir: Malang, 9 Agustus 2006 </br>
+            Alamat: Perumahan GPA DF-25, Karangploso</br>
+            No. Telp: 085706512155 </br>
+            Instagram: FelyTomboy89 </br>
+            Linkedin: Felicita Arcadia </br>
+          </div>
+        </div>
+        <div class="perkenalan">
+          <p> Perkenalkan, saya Felicita, seorang data enthusiast yang gemar membaca serta menganalisis sesuatu, terutama data dan manusia. 
+            Selain itu saya juga gemar menulis cerita, cerpen, puisi atau sekadar menuliskan ide-ide yang saya ciptakan. 
+            Akan tetapi, yang paling saya sukai saat ini adalah belajar pemrograman, terutama pemrograman terkait analitik data. 
+            Cita-cita saya adalah menjadi data analyst yang dapat membantu UMKM di Indonesia dan menjadi penulis yang namanya dikenal banyak orang.</p>
+        </div>
+      </div>
+		</main>
+		<script>
+			function myFunction() {
+  				var x = document.getElementById("myTopnav");
+  				if (x.className === "topnav") {
+    				x.className += " responsive";
+  				} else {
+    				x.className = "topnav";
+  				}
+			}
+		</script>
+	</body>
+</html>
